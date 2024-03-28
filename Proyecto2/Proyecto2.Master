@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Proyecto2.Master.cs" Inherits="Proyecto2.Site1" %>
+
+<!DOCTYPE html>
+<html>
+
+     <!-- Para unir los estilos -->
+<link href="Style_menu.css" rel="stylesheet" />
+     <!-- Fin unir los estilos -->
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>EMI</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+        <!-- Para crear el menú de las paginas -->
+        <div class="menu">
+                               
+            <ul class="menu">
+                <li><a href="Inicio.aspx">Inicio</a></li>
+                <li><a href="Reportes.aspx">Reportes</a></li>
+                <li><a href="Login.aspx">Login</a></li>
+                <li><a href="Salir.aspx">Salir</a></li>
+                <li class="slider"></li>
+            </ul>
+        </div>
+
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
