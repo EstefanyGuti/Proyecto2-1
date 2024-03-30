@@ -28,7 +28,7 @@
     <section>
         <h2>Contacto</h2>
         <p>Para más información, por favor contacta a los desarrolladores a través de los siguiente números Ivar solera: 88072057.
-            María Marchena 8948-3490 y Estefany Gutierres 83022-588.
+            María Marchena 8948-3490 y Estefany Gutierrez 83022-588.
 
         </p>
     </section>
